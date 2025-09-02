@@ -11,3 +11,28 @@ article {
 footer {
     color: lightgray;
 }
+
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article.left {
+    text-align: left;
+}
+
+main {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+}
